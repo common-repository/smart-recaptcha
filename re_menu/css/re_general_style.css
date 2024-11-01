@@ -1,0 +1,2571 @@
+/*
+
+
+
+* cwsicons fonts
+
+
+
+*/
+
+
+
+@font-face {
+
+
+
+    font-family: 'bwsicons';
+
+
+
+    src: url('../fonts/cwsicons.eot?edecf2');
+
+
+
+    src: url('../fonts/cwsicons.eot?edecf2#iefix') format('embedded-opentype'),
+
+
+
+        url('../fonts/cwsicons.ttf?edecf2') format('truetype'),
+
+
+
+        url('../fonts/cwsicons.woff?edecf2') format('woff'),
+
+
+
+        url('../fonts/cwsicons.svg?edecf2#cwsicons') format('svg');
+
+
+
+    font-weight: normal;
+
+
+
+    font-style: normal;
+
+
+
+}
+
+
+
+.cwsicons {
+
+
+
+    /* use !important to prevent issues with browser extensions that change fonts */
+
+
+
+    font-family: 'bwsicons' !important;
+
+
+
+    speak: none;
+
+
+
+    font-style: normal;
+
+
+
+    font-weight: normal;
+
+
+
+    font-variant: normal;
+
+
+
+    text-transform: none;
+
+
+
+    line-height: 1;
+
+
+
+    -webkit-font-smoothing: antialiased;
+
+
+
+    -moz-osx-font-smoothing: grayscale;
+
+
+
+}
+
+
+
+.cwsicons-editor-code:before {
+
+
+
+    content: "\e93a";
+
+
+
+}
+
+
+
+.cwsicons-shortcode:before {
+
+
+
+    content: "\e93b";
+
+
+
+}
+
+
+
+.cwsicons-cws-logo:before {
+
+
+
+    content: "\e93c";
+
+
+
+}
+
+
+
+
+
+
+
+/*
+
+
+
+* styles for sw_panel top level menu
+
+
+
+*/
+
+
+
+
+
+
+/* general styles */
+
+
+
+.cws_info {
+
+
+
+    color: #888;
+
+
+
+    font-size: 13px;
+
+
+
+    font-style: italic;
+
+
+
+}
+
+
+
+div.cws_info {
+
+
+
+    margin-top: 7px;
+
+
+
+}
+
+
+
+.cws_info_small {
+
+
+
+    font-size: 11px !important;
+
+
+
+}
+
+
+
+div.updated.cws-notice {
+
+
+
+    border-left: 4px solid #ffba00;
+
+
+
+}
+
+
+
+/*
+
+
+
+* styles for rate-support div on the settings page
+
+
+
+*/
+
+
+
+.cws-plugin-reviews {
+
+
+
+    background: none repeat scroll 0 0 #BEE1F1;
+
+
+
+    border: 1px solid #70A8C2;
+
+
+
+    border-radius: 3px;
+
+
+
+}
+
+
+
+.cws-plugin-reviews-rate,
+
+
+
+.cws-plugin-reviews-support {
+
+
+
+    border-right: 1px solid #70A8C2;
+
+
+
+}
+
+
+
+.cws-plugin-reviews a {
+
+
+
+    text-decoration: none;
+
+
+
+}
+
+
+
+.cws-plugin-reviews-rate .dashicons {
+
+
+
+    font-size: 12px;
+
+
+
+    height: 13px;
+
+
+
+    width: 9px;
+
+
+
+    vertical-align: middle;
+
+
+
+}
+
+
+
+.cws-plugin-reviews-rate,
+
+
+
+.cws-plugin-reviews-support,
+
+
+
+.cws-plugin-reviews-donate {
+
+
+
+    display: inline-block;
+
+
+
+    padding: 10px;
+
+
+
+    width: 30%;
+
+
+
+}
+
+
+
+@media screen and (max-width: 1600px) {
+
+
+
+    .cws-plugin-reviews-rate,
+
+
+
+    .cws-plugin-reviews-support {
+
+
+
+        border-bottom: 1px solid #70A8C2;
+
+
+
+        border-right: none;
+
+
+
+    }
+
+
+
+    .cws-plugin-reviews-rate,
+
+
+
+    .cws-plugin-reviews-support,
+
+
+
+    .cws-plugin-reviews-donate {
+
+
+
+        width: initial;
+
+
+
+        display: block;
+
+
+
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+
+* styles for pro_version settings and tooltip
+
+
+
+*/
+
+
+
+td.cws_pro_version,
+
+
+
+tr.cws_pro_version,
+
+
+
+.nav-tab.cws_plugin_menu_pro_version,
+
+
+
+.nav-tab.cws_plugin_menu_pro_version:hover {
+
+
+
+    background: rgba(245, 225, 119, 0.3);
+
+
+
+}
+
+
+
+td.cws_pro_version_tooltip {
+
+
+
+    border: 1px solid #AAA;
+
+
+
+    position: inherit;
+
+
+
+}
+
+
+
+.re_pro_version_bloc {
+
+
+
+    position: relative;
+
+
+
+    border: 1px solid #dcd6b8;
+
+
+
+    overflow: hidden;
+
+
+
+}
+
+
+
+.cws_table_bg {
+
+
+
+    background: #f5e177;
+
+
+
+    opacity: 0.3;
+
+
+
+    width: 100%;
+
+
+
+    height: 100%;
+
+
+
+    position: absolute;
+
+
+
+    z-index: 1;
+
+
+
+}
+
+
+
+.re_hide_premium_options {
+    z-index: 5;
+}
+
+
+
+.cws_pro_version_table_bloc table.cws_pro_version {
+
+
+
+    background: transparent;
+
+
+
+    margin: 0;
+
+
+
+    border: none;
+
+
+
+    width: 100%;
+
+
+
+}
+
+
+
+table.cws_pro_version {
+
+
+
+    background: #E0E0E0;
+
+
+
+    border: 1px solid #AAA;
+
+
+
+    margin-bottom: 5px;
+
+
+
+    width: auto;
+
+
+
+}
+
+
+
+table.cws_pro_version tbody {
+
+
+
+    display: block;
+
+
+
+}
+
+
+
+table.cws_pro_version th,
+
+
+
+table.cws_pro_version td {
+
+
+
+    padding-left: 10px;
+
+
+
+}
+
+
+
+.cws_pro_version_tooltip {
+
+
+
+    position: relative;
+
+
+
+    z-index: 2;
+
+
+
+    padding: 10px;
+
+
+
+    font-size: 14px;
+
+
+
+}
+
+
+
+.cws_pro_version_tooltip .cws_button,
+
+
+
+.cws_pro_version_tooltip .cws_button:hover {
+
+
+
+    background: #dd5738;
+
+
+
+    border: none;
+
+
+
+    text-decoration: none;
+
+
+
+    color: #fff;
+
+
+
+    padding: 7px 10px;
+
+
+
+    border-radius: 3px;
+
+
+
+    margin: 5px 0;
+
+
+
+    font-size: 13px;
+
+
+
+    line-height: 1.4em;
+
+
+
+    float: left;
+
+
+
+}
+
+
+
+.cws_pro_version_tooltip .cws_info {
+
+
+
+    float: left;
+
+
+
+    padding-top: 10px;
+
+
+
+    font-size: 14px;
+
+
+
+    color: #444;
+
+
+
+}
+
+
+
+.cws_pro_version_tooltip .cws_pro_links,
+
+
+
+.cws_pro_version_tooltip .cws_pro_links .cws_button {
+
+
+
+    float: right;
+
+
+
+}
+
+
+
+.cws_pro_version_tooltip .cws_trial_info {
+
+
+
+    padding: 10px;
+
+
+
+    display: inline-block;
+
+
+
+}
+
+
+
+div.cws_pro_version {
+
+
+
+    padding: 5px 10px;
+
+
+
+}
+
+
+
+a.cws_plugin_pro_version {
+
+
+
+    display: block;
+
+
+
+    background: rgba(245, 225, 119, 0.3);
+
+
+
+    border: 1px solid #dcd6b8;
+
+
+
+    padding: 5px;
+
+
+
+    text-decoration: none;
+
+
+
+    color: #666;
+
+
+
+}
+
+
+
+.cws_pro_version_single_link,
+
+
+
+.cws_pro_version_single_link:hover {
+
+
+
+    text-decoration: none;
+
+
+
+    color: #666;
+
+
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+
+
+    .cws_pro_version_tooltip {
+
+
+
+        padding: 10px;
+
+
+
+        text-align: center;
+
+
+
+    }
+
+
+
+    .cws_pro_version_tooltip .cws_info {
+
+
+
+        float: none;
+
+
+
+        text-align: center;
+
+
+
+    }
+
+
+
+    .cws_pro_version_tooltip a {
+
+
+
+        display: inline-block;
+
+
+
+        line-height: 1.5;
+
+
+
+    }
+
+
+
+    .cws_pro_version_tooltip .cws_info a {
+
+
+
+        display: block;
+
+
+
+    }
+
+
+
+    .cws_pro_version_tooltip .cws_button {
+
+
+
+        margin: 10px 10px 5px;
+
+
+
+        float: none;
+
+
+
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+.cws-addon-block .cws_table_bg {
+
+
+
+    background: #fff;
+
+
+
+    opacity: 0.3;
+
+
+
+}
+
+
+
+.cws-addon-block .cws_button {
+
+
+
+    display: inline-block;
+
+
+
+    background: #0faa00;
+
+
+
+    border: 1px solid #0b8200;
+
+
+
+    text-decoration: none;
+
+
+
+    color: #fff;
+
+
+
+    padding: 4px 10px;
+
+
+
+    border-radius: 3px;
+
+
+
+    font-size: 13px;
+
+
+
+    line-height: 1.4em;
+
+
+
+    z-index: 2;
+
+
+
+    position: relative;
+
+
+
+    -webkit-box-shadow: 0 1px 0 #0c8c00;
+
+
+
+    box-shadow: 0 1px 0 #0c8c00;
+
+
+
+}
+
+
+
+/*
+
+
+
+* styles for banner
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+.cws_go_pro_banner .icon:before {
+
+
+
+    content: 'PRO';
+
+
+
+    background: #F26E50;
+
+
+
+    border-radius: 4px;
+
+
+
+    color: #FFF;
+
+
+
+    font-size: 11px;
+
+
+
+    font-weight: bold;
+
+
+
+    display: block;
+
+
+
+    padding: 0px 4px;
+
+
+
+    margin: 0 15px -7px;
+
+
+
+    position: relative;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.re_banner_to_settings_joint .cws-details {
+
+
+
+    background: #f2f2f2;
+
+
+
+    padding: 15px 78px 21px;
+
+
+
+}
+
+
+
+.re_banner_to_settings_joint a {
+
+
+
+    text-decoration: none;
+
+
+
+}
+
+
+
+.re_banner_to_settings_joint .cws-more-links {
+
+
+
+    font-size: 14px;
+
+
+
+}
+
+
+
+.re_banner_to_settings_joint .cws-more:after {
+
+
+
+    content: "\f347";
+
+
+
+    font-family: dashicons;
+
+
+
+    margin: 0 5px;
+
+
+
+    top: 2px;
+
+
+
+    position: relative;
+
+
+
+}
+
+
+
+.re_banner_to_settings_joint .cws-less:after {
+
+
+
+    content: "\f343";
+
+
+
+    font-family: dashicons;
+
+
+
+    margin: 0 5px;
+
+
+
+    top: 2px;
+
+
+
+    position: relative;
+
+
+
+}
+
+
+
+.re_banner_to_settings_joint .cws-details strong {
+
+
+
+    font-size: 14px;
+
+
+
+    line-height: 30px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+.rtl table.cws_pro_version th,
+
+
+
+.rtl table.cws_pro_version td {
+
+
+
+    padding-right: 10px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* display code */
+
+
+
+span.cws_code {
+
+
+
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.07);
+
+
+
+    font-size: 13px;
+
+
+
+    margin: 0 1px;
+
+
+
+    padding: 3px 5px 2px;
+
+
+
+}
+
+
+
+/*
+
+
+
+* styles help tooltips
+
+
+
+*/
+
+
+
+.re_help_box {
+
+
+
+    background-image: url("../images/tooltip_icons.png");
+
+
+
+    background-repeat: no-repeat;
+
+
+
+    cursor: pointer;
+
+
+
+    height: 28px;
+
+
+
+    position: relative;
+
+
+
+    margin: 3px 5px;
+
+
+
+    width: 28px;
+
+
+
+    display: inline-block;
+
+
+
+}
+
+
+
+.re_help_box:not(.dashicons) {
+
+
+
+    vertical-align: middle;
+
+
+
+}
+
+
+
+.re_help_box.dashicons-editor-help,
+
+
+
+.setting span .re_help_box.dashicons-editor-help {
+
+
+
+    background: none;
+
+
+
+    color: #0074a2;
+
+
+
+    height: auto;
+
+
+
+    width: auto;
+
+
+
+    margin: 0;
+
+
+
+    padding: 0;
+
+
+
+    z-index: 2;
+
+
+
+    min-width: auto;
+
+
+
+    float: none;
+
+
+
+}
+
+
+
+.re_help_box.dashicons-editor-help:hover {
+
+
+
+    color: #2ea2cc;
+
+
+
+}
+
+
+
+.re_hidden_help_text {
+
+
+
+    display: none;
+
+
+
+}
+
+
+
+.re-tooltip-content {
+
+
+
+    font-size: 11px;
+
+
+
+    color: #fff;
+
+
+
+    text-shadow: 0 0 2px #000;
+
+
+
+    padding: 4px 8px;
+
+
+
+    border: 1px solid rgba(255,255,255,0.25);
+
+
+
+    background-color: rgb(25,25,25);
+
+
+
+    background-color: rgba(25,25,25,0.92);
+
+
+
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to(#000));
+
+
+
+    border-radius: 3px;
+
+
+
+    -webkit-border-radius: 3px;
+
+
+
+    -moz-border-radius: 3px;
+
+
+
+    box-shadow: 0 0 3px #555;
+
+
+
+    -webkit-box-shadow: 0 0 3px #555;
+
+
+
+    -moz-box-shadow: 0 0 3px #555;
+
+
+
+}
+
+
+
+.re-tooltip-content a {
+
+
+
+    color: #00a0d2;
+
+
+
+}
+
+
+
+/* 
+
+
+
+* cws shortcode insert
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+
+* styles for notices (license has expired, Illegal use notification ond other) on the /plugins.php page
+
+
+
+*/
+
+
+
+.cws-plugin-update-tr .update-message {
+
+
+
+    margin-top: 0 !important;
+
+
+
+}
+
+
+
+.cws-plugin-update-tr .update-message :before {
+
+
+
+    content: '';
+
+
+
+}
+
+
+
+/*
+
+
+
+* Cws_Settings_Tabs
+
+
+
+*/
+
+
+
+.re_form #postbox-container-2 > div {
+
+
+
+    width: calc( 100% - 162px );
+
+
+
+    margin-left: 160px;
+
+
+
+}
+
+
+
+.re_form #postbox-container-2 > div.submit {
+
+
+
+    margin-bottom: 20px;
+
+
+
+    padding: 0;
+
+
+
+}
+
+
+
+#re_settings_tabs_wrapper {
+
+
+
+    position: relative;
+
+
+
+    max-width: 100%;
+
+
+
+    min-width: 100%;
+
+
+
+    width: 100%;
+
+
+
+    box-sizing: border-box;
+
+
+
+    font-size: 13px;
+
+
+
+    border: none;
+
+
+
+    padding: 0;
+
+
+
+    background: none;
+
+
+
+    font-family: inherit;
+
+
+
+}
+
+
+
+#re_settings_tabs {
+
+
+
+    z-index: 2;
+
+
+
+    position: relative;
+
+
+
+    width: 159px;
+
+
+
+    float: left;
+
+
+
+    background: #f5f5f5;
+
+
+
+    border-top: 1px solid #ddd;
+
+
+
+    border-left: 1px solid #ddd;
+
+
+
+    border-bottom: 1px solid #ddd;
+
+
+
+    border-right: 0;
+
+
+
+    margin: 0;
+
+
+
+    padding: 0;
+
+
+
+    border-radius: 0;
+
+
+
+    line-height: inherit;
+
+
+
+}
+
+
+
+#re_settings_tabs .ui-state-default,
+
+
+
+#re_settings_tabs .ui-widget-content .ui-state-default,
+
+
+
+#re_settings_tabs .ui-widget-header .ui-state-default {
+
+
+
+    border: none;
+
+
+
+}
+
+
+
+#re_settings_tabs li {
+
+
+
+    margin: 0;
+
+
+
+    padding: 0;
+
+
+
+    float: none;
+
+
+
+    background: none;
+
+
+
+    white-space: normal;
+
+
+
+}
+
+
+
+#re_settings_tabs li a {
+
+
+
+    display: block;   
+
+
+
+    margin:  0 20px;
+
+
+
+    padding: 20px 0 20px 25px;
+
+
+
+    text-decoration: none;
+
+
+
+    color: #666;
+
+
+
+    border-bottom: 1px solid #ddd;
+
+
+
+    word-break: break-word;
+
+
+
+    box-shadow: none;
+
+
+
+    -webkit-box-sizing: border-box;
+
+
+
+    -moz-box-sizing: border-box;
+
+
+
+    box-sizing: border-box;
+
+
+
+    transition: none;
+
+
+
+    -webkit-transition: none;
+
+
+
+    float: none;
+
+
+
+}
+
+
+
+#re_settings_tabs li.ui-tabs-active {
+
+
+
+    width: 161px;
+
+
+
+}
+
+
+
+#re_settings_tabs li.ui-tabs-active a,
+
+
+
+#re_settings_tabs li a:hover {
+
+
+
+    width: 161px;
+
+
+
+    margin: -1px 0 0 0;
+
+
+
+    border-top: 1px solid #ddd;
+
+
+
+    padding: 20px 20px 20px 45px;
+
+
+
+    color: #000 !important;
+
+
+
+    background: #fff !important;
+
+
+
+}
+
+
+
+#re_settings_tabs li a:before {
+
+
+
+    content: "\f111";
+
+
+
+    font-family: 'dashicons';
+
+
+
+    font-size: 20px;
+
+
+
+    position: absolute;
+
+
+
+    left: 20px;
+
+
+
+}
+
+
+
+#re_settings_tabs li.cws-tab-display a:before {
+
+
+
+    content: "\f163";
+
+
+
+}
+
+
+
+#re_settings_tabs li.cws-tab-misc a:before {
+
+
+
+    content: "\f107";
+
+
+
+}
+
+
+
+#re_settings_tabs li.cws-tab-custom_code a:before {
+
+
+
+    font-family: 'bwsicons';
+
+
+
+    content: "\e93a";
+
+
+
+}
+
+
+
+#re_settings_tabs li.cws-tab-license a:before {
+
+
+
+    content: "\f112";
+
+
+
+}
+
+
+
+/* custom tabs */
+
+
+
+#re_settings_tabs li.cws-tab-images a:before {
+
+
+
+    content: "\f128";
+
+
+
+}
+
+
+
+#re_settings_tabs li.cws-tab-cover a:before {
+
+
+
+    content: "\f318";
+
+
+
+}
+
+
+
+#re_settings_tabs li.cws-tab-lightbox a:before {
+
+
+
+    content: "\f211";
+
+
+
+}
+
+
+
+#re_settings_tabs li.cws-tab-social a:before {
+
+
+
+    content: "\f237";
+
+
+
+}
+
+
+
+#re_settings_tabs li.cws-tab-import-export a:before {
+
+
+
+    content: "\f317";
+
+
+
+}
+
+
+
+#re_settings_tabs li.cws-tab-errors a:before {
+
+
+
+    font-family: 'bwsicons';
+
+
+
+    content: "\e93d";
+
+
+
+    font-size: 18px;
+
+
+
+    left: 21px;
+
+
+
+}
+
+
+
+#re_settings_tabs li.cws-tab-notifications a:before {
+
+
+
+    content: "\f466";
+
+
+
+}
+
+
+
+#re_settings_tabs li.cws-tab-output a:before {
+
+
+
+    content: "\f498";
+
+
+
+}
+
+
+
+
+
+
+
+#re_settings_tabs li:last-child a {
+
+
+
+    border-bottom: none;
+
+
+
+}
+
+
+
+#re_settings_tabs_wrapper .cws_tab {
+
+
+
+    position: relative;
+
+
+
+    padding: 5px 10px 15px;
+
+
+
+    width: calc( 100% - 183px );
+
+
+
+    float: right;
+
+
+
+    border: 1px solid #ddd;
+
+
+
+    background: #fff;
+
+
+
+    color: #444;
+
+
+
+}
+
+
+
+.cws_tab a {
+
+
+
+    color: #0073aa;
+
+
+
+}
+
+
+
+.cws_tab a:hover {
+
+
+
+    color: #00a0d2;
+
+
+
+}
+
+
+
+.cws_tab input, .cws_tab select, .cws_tab textarea, .cws_tab button {
+
+
+
+    font-family: inherit;
+
+
+
+    font-size: inherit;
+
+
+
+}
+
+
+
+#re_settings_tabs_wrapper .cws_tab > *:not(.re_pro_version_bloc):not(.cws_tab_sub_label):not(hr):not(.inline) {
+
+
+
+    margin-left: 10px;
+
+
+
+    margin-right: 10px;
+
+
+
+    width: calc( 100% - 20px );
+
+
+
+}
+
+
+
+#re_settings_tabs_wrapper .cws_tab button,
+
+
+
+#re_settings_tabs_wrapper .cws_tab input[type="submit"],
+
+
+
+#re_settings_tabs_wrapper .cws_tab input[type="button"] {
+
+
+
+    white-space: normal;
+
+
+
+    height: auto;
+
+
+
+}
+
+
+
+.re_form .postbox .hndle {
+
+
+
+    cursor: inherit;
+
+
+
+}
+
+
+
+#poststuff h3.cws_tab_label {
+
+
+
+    margin-bottom: 10px;
+
+
+
+    padding-left: 0;
+
+
+
+    padding-right: 0;
+
+
+
+}
+
+
+
+.cws_tab_sub_label {
+
+
+
+    font-weight: bold;
+
+
+
+    background-color: #f1f1f1;
+
+
+
+    padding: 7px 10px;
+
+
+
+    margin-top: 10px;
+
+
+
+    font-size: 15px;
+
+
+
+}
+
+
+
+.cws_tab .form-table textarea {
+
+
+
+    width: 100%;
+
+
+
+}
+
+
+
+#poststuff h3.cws_tab_label + hr {
+
+
+
+    margin-top: 18px;
+
+
+
+}
+
+
+
+.cws_tab_description + hr {
+
+
+
+    margin-top: 15px;
+
+
+
+}
+
+
+
+.rtl #re_settings_tabs {
+
+
+
+    float: right;
+
+
+
+    border-right: 1px solid #ddd;
+
+
+
+    border-left: none;
+
+
+
+}
+
+
+
+.rtl #re_settings_tabs li a {
+
+
+
+    padding: 20px 25px 20px 0;
+
+
+
+}
+
+
+
+.rtl #re_settings_tabs li.ui-tabs-active a,
+
+
+
+.rtl #re_settings_tabs li a:hover {
+
+
+
+    padding: 20px 45px 20px 20px;
+
+
+
+}
+
+
+
+.rtl #re_settings_tabs li a:before {
+
+
+
+    right: 20px;
+
+
+
+}
+
+
+
+.rtl .re_form #postbox-container-2 > div {
+
+
+
+    margin-right: 160px;
+
+
+
+    margin-left: 0;
+
+
+
+}
+
+
+
+@media only screen and (max-width: 1100px) {
+
+
+
+    #re_settings_tabs {
+
+
+
+        width: 59px;
+
+
+
+    }    
+
+
+
+    #re_settings_tabs li a {
+
+
+
+        margin: 0;
+
+
+
+        padding: 20px 0;
+
+
+
+        width: 60px;
+
+
+
+        height: 60px;
+
+
+
+    }
+
+
+
+    #re_settings_tabs li.ui-tabs-active a,    
+
+
+
+    #re_settings_tabs li a:hover,
+
+
+
+    .rtl #re_settings_tabs li.ui-tabs-active a,
+
+
+
+    .rtl #re_settings_tabs li a:hover {
+
+
+
+        padding: 20px 0;
+
+
+
+        height: 61px;
+
+
+
+    }
+
+
+
+    #re_settings_tabs li.ui-tabs-active,
+
+
+
+    #re_settings_tabs li.ui-tabs-active a,
+
+
+
+    #re_settings_tabs li a:hover {
+
+
+
+        width: 61px;
+
+
+
+    }
+
+
+
+    #re_settings_tabs_wrapper .cws_tab {
+
+
+
+        width: calc( 100% - 83px );
+
+
+
+    }
+
+
+
+    #re_settings_tabs span {
+
+
+
+        display: none;
+
+
+
+    }
+
+
+
+    .re_form #postbox-container-2 > div {
+
+
+
+        margin-left: 60px;
+
+
+
+        width: calc( 100% - 62px );
+
+
+
+    }
+
+
+
+    .rtl .re_form #postbox-container-2 > div {
+
+
+
+        margin-right: 60px;
+
+
+
+        margin-left: 0;
+
+
+
+    }
+
+
+
+}
+
+
+
+@media only screen and (max-width: 850px) {
+
+
+
+    .re_form #postbox-container-2 > div,
+
+
+
+    .rtl .re_form #postbox-container-2 > div {
+
+
+
+        width: calc( 100% - 2px );
+
+
+
+        margin: 0;
+
+
+
+    }
+
+
+
+    .re_form #postbox-container-2 .postbox {
+
+
+
+        margin-bottom: 20px;
+
+
+
+    }
+
+
+
+    .re_form .postbox-container div.submit {
+
+
+
+        display: none;
+
+
+
+    }
+
+
+
+}
+
+
+
+@media screen and (max-width: 782px) {
+
+
+
+    .cws-hide-for-mobile {
+
+
+
+        display: none;
+
+
+
+    }
+
+
+
+}
+
+
+
+@media screen and (max-width: 440px) {
+
+
+
+    #re_settings_tabs_wrapper .cws_tab .form-table td input[type=file] {
+
+
+
+        width: 182px;
+
+
+
+    }
+
+
+
+    #re_settings_tabs_wrapper .cws_tab .form-table td input[type=text]:not(.small-text),
+
+
+
+    #re_settings_tabs_wrapper .cws_tab .form-table td input[type=password],
+
+
+
+    #re_settings_tabs_wrapper .cws_tab .form-table td input[type=search],
+
+
+
+    #re_settings_tabs_wrapper .cws_tab .form-table td input[type=number]:not(.small-text),
+
+
+
+    #re_settings_tabs_wrapper .cws_tab .form-table td select,
+
+
+
+    #re_settings_tabs_wrapper .cws_tab .form-table td textarea {
+
+
+
+        width: 100%;
+
+
+
+        padding-left: 0;
+
+
+
+        padding-right: 0;
+
+
+
+    }
+
+
+
+}
+
+
+
+/* added  */
+.wfActEvent{overflow: hidden;}
+.visit_linkx
+{
+	overflow: hidden;
+    white-space: nowrap;
+}
+
+
+.wfActEvent{ overflow:hidden;}
+
+#re_cptch_whitelist{padding: 10px 20px 0px 30px;}
+#re_cptch_whitelist{padding: 10px 20px 0px 30px;}
+.re_cptch_blacklist{ margin:10px;}
+p.search-box{ margin-right:15px;}
+
